@@ -1,0 +1,37 @@
+.containerTitle{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.linkInstagram{ 
+   font-size: 20px;
+   color: #fbb900;
+   margin: 70px 100px 0px 0px;
+   font-weight: bold;
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+.photos{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   overflow: hidden;
+}
+
+.photos img{
+   width: 363px;
+   height: 363px;
+   background-color: #fff;
+   border-radius: 10px;
+   border: 1px solid #e5e5e5;
+}
+
+@media screen and (max-width:1220px){
+   .photos img{
+       width: 263px;
+       height: 263px;
+   }
+}

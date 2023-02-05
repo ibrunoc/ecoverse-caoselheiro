@@ -1,0 +1,39 @@
+.arrowCategory{
+    width: 100%;
+    position: absolute;
+    top: 1130px;
+    z-index: 10;
+}
+
+.arrowCategory img{    
+    width: 82px;
+    height: 82px;
+    cursor: pointer;
+}
+
+.dogs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.dogs img{
+    width: 277px;
+    height: 277px;
+}
+
+.dogs p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #9f9f9f;
+}
+
+@media screen and (max-width:1220px){
+    .dogs img{
+        width: 227px;
+        height: 257px;
+    }
+}

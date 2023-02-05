@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+html, body{ width: 100%; }
+
+main{background-color: #fff;}
+
+section{width: 100%;}
+
+.containerArrow{
+  display: flex;
+  flex-direction: row;
+  margin: auto 4% auto 4%;
+  justify-content: space-between;
+}
+
+.titleCategory{   
+  font-size: 32px;
+  color: #4d4d4d;
+  margin: 80px auto 50px 50px;
+}
+
+@media screen and (max-width:1220px){
+  .containerArrow{ margin: auto 1% auto 1%; }
+}

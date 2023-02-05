@@ -1,0 +1,143 @@
+.Footer{
+   width: 100%;
+   height: 660px;
+   background-color: #FBB900;
+   display: flex;
+}
+
+.Social{
+   width: 35%;
+   height: 100%;
+   border-right: 1px solid white;
+}
+
+.Social h1{
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  margin: 20px auto;
+  padding-top: 50px;
+  width: 50%;
+}
+
+.Social p{
+   text-align: center;
+   font-size: 14px;
+   color: white;
+   width: 60%;
+   margin: auto;
+}
+
+.Redes{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.Redes img{
+   width: 100%;
+   cursor: pointer;
+   width: 22px;
+   height: 22px;
+   margin: auto -100px;
+}
+
+.Information{
+   width: 65%;
+   height: 100%;
+   border-right: 1px solid white;
+}
+
+.containerInformation{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.Telefone{ position: absolute; }
+
+.textTelefone{padding-left: 30px;}
+
+.containerInformation h1{
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  margin: 10px auto;
+  padding-top: 50px;   
+  text-align: left;
+}
+
+.containerInformation p{
+   text-align: center;
+   font-size: 14px;
+   color: white;
+   text-align: left;
+   margin: 10px auto;
+}
+
+.containerPayment{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   padding-bottom: 30px;
+   border-bottom: 1px solid white;
+}
+
+.Payment{ width: 60%; }
+
+.Payment img{
+   width: 66.26px;
+   height: 38.12px;
+   margin: auto 10px; 
+}
+
+.containerPayment h1{
+  text-align: center;
+  font-size: 24px;
+  color: white;
+  margin: 30px auto;
+  padding-top: 50px;   
+  text-align: left;
+}
+
+.informationRights{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding-bottom: 30px;
+}
+
+.informationRights p{
+   text-align: center;
+   font-size: 14px;
+   color: white;
+   text-align: left;
+}
+
+.textRights{ margin: 35px 0px auto 0px; }
+
+.informationRights img{
+   width: 106px;
+   height: 31px;
+   margin: 50px 10px auto 10px;
+}
+
+.informationRights img:nth-child(2){
+   width: 87.83px;
+   height: 31px;
+   margin: 50px 10px auto 10px;
+}
+
+@media screen and (max-width:1220px){
+  .Footer{ height: auto; }
+
+  .Social{ padding-bottom: 30px; }
+ 
+  .Social p{ width: 80%;  }
+
+  .containerInformation{ margin-top: 10px; }
+}

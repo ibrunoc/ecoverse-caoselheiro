@@ -1,0 +1,243 @@
+.containerTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.linkBrands{ 
+    font-size: 16px;
+    color: #fbb900;
+    margin: 85px 100px 10px 0px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.arrowBrands{
+    width: 100%;
+    position: absolute;
+    top: 2320px;
+    z-index: 10;
+}
+
+.arrowBrands img{    
+    width: 82px;
+    height: 82px;
+    cursor: pointer;
+}
+
+.brands{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.brands div{
+    width: 178px;
+    height: 178px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.buddy{
+    width: 81px;
+    height: 84px;
+    margin: 50px 50px;
+}
+
+.petgames{
+    width: 128px;
+    height: 36px;
+    margin: 70px 24px;
+}
+
+.kong{
+    width: 123px;
+    height: 42px;
+    margin: 70px 28px;
+}
+
+.background{
+    width: 574px;
+    height: 350px;
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+}
+
+.partnerRectangle{
+    width: 574px;
+    height: 350px;
+    background-image: url("./../../Img/photos/backgroundParceiros.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 100px;
+}
+
+.partnerRectangle h1{
+    color: #fff;
+    font-size: 40px;
+    padding: 100px 20px 10px 20px;
+}
+
+.partnerRectangle p{
+    width: 40%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px 10px 30px;
+}
+
+.btnPartner{
+    margin: 30px auto auto 30px;
+    background-color: #FBB900;
+    border: 1px solid #F0D075;
+    color: white;
+    width: 131px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.btnPartner:hover{
+    background-color: white;
+    border: 1px solid #FBB900;
+    color: #FBB900;
+}
+
+.partner{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.containerPartner{
+    width: 50%;
+    float: left;
+}
+
+.circlesSlidePartner{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.circlesPartner:nth-child(1){
+    background-color: #4d4d4d;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.circlesPartner{
+    border: 3px solid #4d4d4d;
+    margin: -65px 10px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.signature{
+    width: 50%;
+    float: right;
+}
+
+.signatureRectangle{
+    width: 630px;
+    height: 350px;
+    background-color: #FEF6E7;
+    background-image: url("./../../Img/photos/cachorro.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: right;
+    margin-top: 100px;
+}
+
+.signatureRectangle h1{
+    color: #4d4d4d;
+    font-size: 40px;
+    width: 50%;
+    margin: 25px auto auto 50px;
+}
+
+.signatureRectangle p{
+    width: 40%;
+    color: #9f9f9f;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px auto -30px 50px;
+}
+
+.btnSignature{
+    margin: 50px auto auto 50px;
+    background-color: #FBB900;
+    border: 1px solid #F0D075;
+    color: white;
+    width: 131px;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.btnSignature:hover{
+    background-color: white;
+    border: 1px solid #FBB900;
+    color: #FBB900;
+}
+
+@media screen and (max-width:1220px){
+
+    .arrowBrands{
+        width: 100%;
+        position: absolute;
+        top: 2275px;
+        z-index: 10;
+    }
+
+    .brands div{
+        width: 128px;
+        height: 128px;
+    }
+
+    .buddy{
+        width: 61px;
+        height: 64px;
+        margin: 35px;
+    }
+    
+    .petgames{
+        width: 90px;
+        height: 30px;
+        margin: 50px 18px;
+    }
+    
+    .kong{
+        width: 90px;
+        height: 30px;
+        margin: 50px 18px;
+    }
+
+    .partnerRectangle{
+        width: 524px;
+        margin: 100px 20px;
+    }
+
+    .btnPartner{ margin-top: 10px;}
+
+    .circlesSlidePartner{ width: 100%;}
+
+    .background{ width: 524px; }
+
+    .signatureRectangle{  width: 580px; }
+}

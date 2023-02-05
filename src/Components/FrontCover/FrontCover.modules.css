@@ -1,0 +1,105 @@
+.frontCover{   
+   width: 100%;
+   height: 690px;
+   margin-top: 150px;
+}
+
+.arrowFrontCover{
+   width: 100%;
+   position: absolute;
+   top: 470px;
+   z-index: 10;
+}
+
+.arrowFrontCover img{    
+   width: 32px;
+   height: 32px;
+   cursor: pointer;
+}
+
+.infoFrontCover{
+   position: absolute;
+   top: 380px;
+   left: 300px;
+}
+
+.titleFrontCover{
+   font-size: 40px;
+   text-align: left;
+   width: 40%;
+   color: white;
+}
+
+.btnFrontCover{
+   margin-top: 20px;
+   background-color: #FBB900;
+   border: 1px solid #F0D075;
+   color: white;
+   width: 131px;
+   height: 48px;
+   cursor: pointer;
+   border-radius: 10px;
+   font-size: 16px;
+   font-weight: 900;
+}
+
+.btnFrontCover:hover{
+   background-color: white;
+   border: 1px solid #FBB900;
+   color: #FBB900;
+}
+
+.circlesSlideFrontCover{
+   width: 100%;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   top: 780px;
+   z-index: 10;
+}
+
+.circleFrontCover:nth-child(1){
+   background-color: white;
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+}
+
+.circleFrontCover{
+   border: 3px solid white;
+   margin: auto 10px;
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+}
+
+.circleBottom{
+   width: 72px;
+   height: 72px;
+   position: absolute;
+   border-radius: 50%;
+   top: 810px;
+   left: 48%;
+   cursor: pointer;
+}
+
+@media screen and (max-width:1220px){
+   .frontCover{   
+       height: 490px;
+       margin-top: 150px;
+   }
+
+   .arrowFrontCover{ top: 370px; }
+       
+   .infoFrontCover{        
+       top: 280px;
+       left: 200px;
+   }        
+
+   .circlesSlideFrontCover{ top: 590px; }
+   
+   .circleBottom{
+       top: 610px;
+       left: 47%;
+   }
+}

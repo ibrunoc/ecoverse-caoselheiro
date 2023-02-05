@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import './Style/app.css'; 
+import { HeaderComponent } from "./Components/HeaderComponent/index.jsx";
+import { FrontCover } from "./Components/FrontCover/index.jsx";
+import { Category } from "./Components/Category/index.jsx";
+import { Dog } from "./Components/Dog/index.jsx";
+import { Brands } from "./Components/Brands/index.jsx";
+import { Blog } from "./Components/Blog/index.jsx";
+import { Instagram } from './Components/Instagram/index.jsx';
+import { Newsletter } from './Components/Newsletter/index.jsx';
+import { Footer } from './Components/Footer/index.jsx';
+import Modal from 'react-modal';
 
-function App() {
+Modal.setAppElement('#root');
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>   
+      <HeaderComponent />
+      <FrontCover />
+      <Category />      
+      <Dog />
+      <Brands />      
+      <Blog />     
+      <Instagram />        
+      <Newsletter />
+      <Footer />        
+    </>
   );
 }
-
-export default App;

@@ -1,0 +1,111 @@
+.HeaderComponent { 
+   width: 100%;
+   height: 180px;
+   background-color: white;
+   position: fixed;  
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   z-index: 11;    
+   padding-top: 20px;
+}
+
+.InfoHeader{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+}
+
+.ContainerInfoHeader{ display: flex; }
+
+.Shield, .Truck, .Card{
+   width: 20px;
+   height: 20px;
+   transform: translateY(-10%);     
+}
+
+h1{
+   color: #9f9f9f;
+   font-size: 12px;
+   margin-left: 10px;
+}
+
+.headerSpan{ color: #FBB900; }
+
+.Header{
+   width: 100%;
+   margin-top: 20px;
+   flex-direction: row;
+   display: flex;
+   justify-content: space-around;
+}
+
+.logo img{
+   width: 178px;
+   height: 48px;
+   margin-left: 20px;
+}
+
+.bar{
+   width: 40%;
+   margin-left: 20px;
+}
+ 
+.search{
+   width: 100%;
+   height: 48px;
+   font-size: 14px;
+   padding-left: 15px;
+   border-radius: 10px;
+   background-color: #FEF6E7;
+   background-image:url(./../../Img/icons/MagnifyingGlass.png);
+   background-size: 30px;
+   background-position: 98% 8px;
+   background-repeat:no-repeat;     
+   border:0;
+   outline: 0;
+}
+
+.User{
+   width: 15%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.User img{
+   width: 32px;
+   height: 32px;
+   cursor: pointer;
+}
+
+.Links{
+   width: 100%;
+   margin-top: 20px;
+   color: white;
+}
+
+ul{
+   flex-direction: row;
+   display: flex;
+   justify-content: space-around;
+}
+
+li{
+   list-style: none;
+}
+
+li img{
+   width: 20px;
+   height: 20px;
+   transform: translateY(20%); 
+}
+
+a{
+   text-decoration: none;
+   color: #9f9f9f;
+   text-transform: uppercase;
+   margin-left: 5px;
+}
+
+a:hover{ color: #FBB900; }
