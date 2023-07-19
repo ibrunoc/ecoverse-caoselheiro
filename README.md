@@ -9,7 +9,7 @@ Um projeto feito para um processo seletivo de front-end da Ecoverse.
     
 <p align="center">
   <a href="#Tecnologias">Tecnologias Usadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Como">Como Usar O Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Como-Usar-O-Projeto">Como Usar O Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Resultado">Resultado Final</a>
 </p>
 
@@ -20,7 +20,7 @@ Um projeto feito para um processo seletivo de front-end da Ecoverse.
 - [Git](https://git-scm.com/docs)
 - [VS Code](https://code.visualstudio.com/).
 
-## Como
+## Como Usar O Projeto
 Para clonar e executar este aplicativo, você precisará do [Git](https://git-scm.com), instalado em seu computador.
 
 ```bash
