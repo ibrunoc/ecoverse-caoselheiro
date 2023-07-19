@@ -30,7 +30,9 @@ $ git clone https://github.com/ibrunoc/ecoverse-caoselheiro.git
 
 # Abra o repositório
 
-# Abra o .html para ver o projeto
+# Na linha de comando digite npm Install no repositório
+
+# e por fim, npm start para iniciar o repositório
 ```
 
 <div align="center">
