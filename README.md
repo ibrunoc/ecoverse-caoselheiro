@@ -8,9 +8,9 @@ Um projeto feito para um processo seletivo de front-end da Ecoverse.
 </h3>
     
 <p align="center">
-  <a href="#Tecnologias-Usadas">Tecnologias Usadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#Tecnologias">Tecnologias Usadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="Como">Como Usar O Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#Resultado-Final">Resultado Final</a>
+  <a href="#Resultado">Resultado Final</a>
 </p>
 
 ## Tecnologias
