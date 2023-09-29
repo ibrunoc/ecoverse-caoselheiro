@@ -12,7 +12,6 @@ Um projeto feito para um processo seletivo de front-end da Ecoverse.
 - [ReactJS](https://legacy.reactjs.org/docs/getting-started.html)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Git](https://git-scm.com/docs)
-- [VS Code](https://code.visualstudio.com/)
 
 <div align="center">
   <h2><a href="https://caoselheiro-ecoverse.vercel.app/">LINK DO PROJETO</a></h2> ( não foi necessário o responsivo. )
